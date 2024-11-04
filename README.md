@@ -11,7 +11,8 @@ Use Linux commands to manage file permissions
 
 ## Check file and directory details
 
-![][image1]  
+![Check Directories](Capture.JPG)
+
 The /home/researcher2/projects directory and the permissions of the files and subdirectory it contains.  
 Files:
 
@@ -57,21 +58,21 @@ The permissions string is a 10-character string that indicates the permission as
 
 Changed the permissions of the project\_k.txt file so that the owner type of other doesn’t have write permissions.
 
-![][image2]
+![Change permission](Capture2.JPG)
 
 ## Change file permissions on a hidden file
 
 The file .project\_x.txt is a hidden file that has been archived and should not be written to by others. The user and group should still be able to read this file.  
 Changed the permissions of the file .project\_x.txt so that both the user and the group can read, but not write to, the file.
 
-![][image3]
+![Change file permissions on a hidden file](Capture4.JPG)
 
 ## Change directory permissions
 
 Only researcher2 user should be allowed to access the drafts directory and its contents.  
 Removed the execute permission for the group from the drafts directory.
 
-![][image4]
+![Change directory permissions](Capture3.JPG)
 
 ## Summary
 
